@@ -46,75 +46,92 @@
     </p>
     <div class="main-buttons">
       <button class="email">Email Me</button>
-      <a href="#work"><i class="fas fa-chevron-circle-down"></i> See Design Work</a>
+      <a href="#projects"><i class="fas fa-chevron-circle-down"></i> See Design Work</a>
     </div>
   </div>
 
   <!-- Resume -->
-  <div class="resume mt-5 mb-5">
-    <h2>About <span class="highlighted mb-5">Me</span></h2>
-    <p class="resume-aboutme margin-50">I am a 23 year old web developer born and raised in Ottawa Ontario. My
-      interest
-      in
-      web
-      development began in
-      2012
-      when I would use photoshop to re-design my favorite websites. From that point on, I've always been interested in
-      making static designs functional.
-    </p>
+  <div class="resume">
+    <div class="resume-aboutme">
+      <h2>About <span class="highlighted mb-5">Me</span></h2>
+      <p class="margin-50">I am a 23 year old web developer born and raised in Ottawa Ontario. My
+        interest
+        in
+        web
+        development began in
+        2012
+        when I would use photoshop to re-design my favorite websites. From that point on, I've always been interested in
+        making static designs functional.
+      </p>
+      <p class="margin-50">I pride myself in always being a "student" of web development as the industry is always
+        changing and adapting.
+        I am confident and proud of my ability to adapt and learn new concepts required for the job quickly and
+        effectively.</p>
 
-    <h2 class="margin-150"><span class="highlighted">My</span> Education</h2>
-    <div class="resume-education">
-      <div class="education-item margin-50">
-        <h5>Algonquin College - Interactive Media Design</h5>
-        <p><strong>Year Completed:</strong> August 2020</p>
-        <p><strong>Description:</strong><br>Studied Interactive Media and Design with a focus on front end web
-          development at algonquin college. Courses included a variety of multi-media applications as well as variety of
-          web specific courses.</p>
-      </div>
-      <div class="education-item margin-50">
-        <h5>University of Ottawa - Business and Accounting</h5>
-        <p><strong>Years Completed:</strong> 2 years</p>
-        <p><strong>Description:</strong><br>Studied business with a specialization in accounting at the University of
-          Ottawa. Studied topics such as general business, accounting, micro/macro economics, managerial accounting,
-          human resources, and statistics.</p>
+      <p class="margin-50">Along with web development, I am also extremely passionate about music and fitness. I have
+        personally gone on to release my own music on <strong>Spotify</strong> and <strong>Apple Music</strong> under
+        the name Benjamin Alan. I would consider myself a very creative person and love working hard and using my
+        creativity in positive ways.</p>
+    </div>
+
+    <div class="resume-section">
+      <h2 class="margin-150"><span class="highlighted">My</span> Education</h2>
+      <div class="resume-education">
+        <div class="education-item margin-50">
+          <h5>Algonquin College - Interactive Media Design</h5>
+          <p><strong>Year Completed:</strong> August 2020</p>
+          <p><strong>Description:</strong><br>Studied Interactive Media and Design with a focus on front end web
+            development at algonquin college. Courses included a variety of multi-media applications as well as variety
+            of
+            web specific courses.</p>
+        </div>
+        <div class="education-item margin-50">
+          <h5>University of Ottawa - Business and Accounting</h5>
+          <p><strong>Years Completed:</strong> 2 years</p>
+          <p><strong>Description:</strong><br>Studied business with a specialization in accounting at the University of
+            Ottawa. Studied topics such as general business, accounting, micro/macro economics, managerial accounting,
+            human resources, and statistics.</p>
+        </div>
       </div>
     </div>
 
-    <h2 class="margin-150"><span class="highlighted">My</span> Previous Work History</h2>
-    <div class="resume-education">
-      <div class="education-item margin-50">
-        <h5>Transport Canada - UX/UI Designer</h5>
-        <p><strong>Work Period:</strong> January 2020 - March 2020</p>
-        <p><strong>Description:</strong><br>Worked directly with Transport Canada TDG inspectors to re-design the
-          Microsoft Field Services mobile application to better fit their current business process.</p>
-      </div>
-      <div class="education-item margin-50">
-        <h5>CRA Canada - Criminal Investigations Unit</h5>
-        <p><strong>Work Period:</strong> April 2017 - August 2017</p>
-        <p><strong>Description:</strong><br>Worked alongside CRA investigators on Criminal Tax Fraud investigations. Was
-          responsible for drafting witness statements for court cases and working with evidence collected by the RCMP.
-        </p>
+    <div class="resume-section">
+      <h2 class="margin-150"><span class="highlighted">My</span> Previous Work History</h2>
+      <div class="resume-education">
+        <div class="education-item margin-50">
+          <h5>Transport Canada - UX/UI Designer</h5>
+          <p><strong>Work Period:</strong> January 2020 - March 2020</p>
+          <p><strong>Description:</strong><br>Worked directly with Transport Canada TDG inspectors to re-design the
+            Microsoft Field Services mobile application to better fit their current business process.</p>
+        </div>
+        <div class="education-item margin-50">
+          <h5>CRA Canada - Criminal Investigations Unit</h5>
+          <p><strong>Work Period:</strong> April 2017 - August 2017</p>
+          <p><strong>Description:</strong><br>Worked alongside CRA investigators on Criminal Tax Fraud investigations.
+            Was
+            responsible for drafting witness statements for court cases and working with evidence collected by the RCMP.
+          </p>
+        </div>
       </div>
     </div>
   </div>
 
   <!-- Projects -->
 
-  <div class="projects">
+  <div class="projects" id="projects">
     <h2>My Previous Projects</h2>
     <div class="row row-cols-1 row-cols-md-3 margin-50">
       <div class="col mb-4">
         <div class="card h-200">
           <img src="img/project1.jpeg" class="card-img-top">
           <div class="card-body">
-            <h5 class="card-title"><a href="#">FAS - Forestry Architecture Studio</a></h5>
+            <h5 class="card-title"><a href="/project-fas.html">FAS - Forestry Architecture Studio</a></h5>
             <p class="card-text">A website built for an architecture client using Word Press. Project took approximately
               10 weeks to complete.</p>
           </div>
         </div>
       </div>
-      <div class="col mb-4">
+      <!-- <div class="col mb-4">
         <div class="card h-100">
           <img src="img/project2.jpeg" class="card-img-top">
           <div class="card-body">
@@ -122,8 +139,8 @@
             <p class="card-text">Re-designed the Microsoft Field Services Application at Transport Canada.</p>
           </div>
         </div>
-      </div>
-      <div class="col mb-4">
+      </div> -->
+      <!-- <div class="col mb-4">
         <div class="card h-100">
           <img src="img/project3.png" class="card-img-top">
           <div class="card-body">
@@ -131,7 +148,7 @@
             <p class="card-text">Designed and developed a custom website for Envocode.</p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
 
   </div>
@@ -140,7 +157,7 @@
 
   <!-- Footer -->
 
-  <nav class="navbar navbar-expand-lg navbar-light animate__animated animate__fadeInDown mt-5">
+  <nav class="navbar navbar-expand-lg navbar-light animate__animated animate__fadeInDown margin-150">
     <a class="navbar-brand" href="#">Benjamin Alan</a>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item">
